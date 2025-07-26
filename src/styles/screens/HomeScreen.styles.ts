@@ -1,0 +1,126 @@
+import { StyleSheet } from 'react-native';
+import { colors, typography, spacing } from '../base';
+
+export const styles = StyleSheet.create({
+  container: {
+    padding: spacing.lg,
+    paddingTop: 80,
+    paddingBottom: 180,
+    backgroundColor: colors.background,
+  },
+  topHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: spacing.md,
+  },
+  logo: {
+    width: 48,
+    height: 48,
+    resizeMode: 'contain',
+  },
+  notificationIcon: {
+    backgroundColor: colors.grayLight,
+    padding: spacing.sm,
+    borderRadius: 100,
+  },
+  title: {
+    fontSize: typography.fontSizes.xl,
+    fontFamily: typography.fonts.default,
+    fontWeight: typography.fontWeights.bold,
+    color: colors.text,
+  },
+  subtitle: {
+    marginTop: spacing.lg,
+    fontSize: typography.fontSizes.md,
+    fontFamily: typography.fonts.default,
+    color: colors.text,
+  },
+  moodRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginVertical: spacing.md,
+    gap: spacing.xs,
+  },
+  moodButton: {
+    width: 65,
+    height: 70,
+    borderRadius: 16,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: spacing.sm,
+  },
+  moodLabel: {
+    marginTop: spacing.xs,
+    fontSize: typography.fontSizes.xs,
+    fontFamily: typography.fonts.default,
+    textAlign: 'center',
+    color: colors.text,
+  },
+  moodEmoji: {
+    fontSize: 60,
+  },
+  sectionTitle: {
+    fontSize: typography.fontSizes.lg,
+    fontFamily: typography.fonts.default,
+    fontWeight: typography.fontWeights.bold,
+    marginTop: spacing.lg,
+    marginBottom: spacing.sm,
+    color: colors.text,
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: spacing.lg,
+    marginBottom: spacing.sm,
+  },
+  linkText: {
+    fontSize: typography.fontSizes.sm,
+    fontFamily: typography.fonts.default,
+    color: colors.primary,
+    fontWeight: '500',
+  },
+  statusRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  statusCard: {
+    width: 110,
+    height: 110,
+    borderRadius: 12,
+    padding: 15,
+    paddingTop: 20,
+    paddingBottom: 20,
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+  },
+  cardLabel: {
+    fontSize: typography.fontSizes.sm,
+    fontFamily: typography.fonts.default,
+    marginTop: 15,
+    color: colors.text,
+  },
+  value: {
+    fontSize: typography.fontSizes.md,
+    fontWeight: 'bold',
+    marginTop: 2,
+    color: colors.text,
+  },
+  medicationCard: {
+    backgroundColor: colors.white,
+    borderRadius: 12,
+    padding: spacing.md,
+    shadowColor: '#000',
+    shadowOpacity: 0.06,
+    shadowOffset: { width: 0, height: 2 },
+    shadowRadius: 4,
+    elevation: 1,
+  },
+  cardNote: {
+    fontSize: typography.fontSizes.sm,
+    fontFamily: typography.fonts.default,
+    color: '#666',
+    marginTop: 2,
+  },
+});
