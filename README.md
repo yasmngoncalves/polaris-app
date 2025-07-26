@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# Polaris 🌌
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O **Polaris** é um aplicativo criado para auxiliar pessoas neurodivergentes — incluindo aquelas com Transtorno Afetivo Bipolar (TAB), TDAH e TEA — a monitorar seu bem-estar físico e emocional de forma simples, acessível e segura.
 
-## Get started
+## ✨ Funcionalidades
 
-1. Install dependencies
+- Registro diário de humor e hábitos
+- Monitoramento de dados de dispositivos vestíveis (como sono, passos, etc.)
+- Alertas personalizados
+- Exportação de relatórios em PDF para acompanhamento profissional
+- Interface acessível, com foco em usabilidade
 
-   ```bash
-   npm install
-   ```
+## 🔐 Privacidade
 
-2. Start the app
+Todos os dados são armazenados de forma segura, com respeito à LGPD. O usuário tem total controle sobre seus dados e pode exportar ou apagar quando quiser.
 
-   ```bash
-   npx expo start
-   ```
+## 🧠 Tecnologias utilizadas
 
-In the output, you'll find options to open the app in a
+- **React Native** – desenvolvimento multiplataforma
+- **TypeScript** – tipagem estática e organização
+- **Firebase** ou **SQLite** – armazenamento de dados
+- **Styled Components / Tailwind CSS (NativeWind)** – estilo da interface
+- **PDFKit** (ou similar) – geração de relatórios
+- **Expo** – ambiente e build mobile
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Em desenvolvimento
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Este projeto faz parte de um Trabalho de Conclusão de Curso (TCC) da ETEC Zona Leste e está em constante evolução. Feedbacks são bem-vindos!
 
-## Get a fresh project
+## 📄 Licença
 
-When you're ready, run:
+Este projeto é protegido pela [licença Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), com **direitos comerciais exclusivos reservados à autora**.
 
-```bash
-npm run reset-project
-```
+© 2025 Yasmin Gonçalves – todos os direitos reservados.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Você pode visualizar, estudar e compartilhar este conteúdo **somente para fins não comerciais**, desde que **não modifique** nenhuma parte do projeto e **mantenha os créditos de autoria.**
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Não é permitido copiar, redistribuir, publicar, vender ou adaptar este projeto sem autorização da autora.**
